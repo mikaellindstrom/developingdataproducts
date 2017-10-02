@@ -20,4 +20,4 @@ The Shiny application is deployed on ShinyApps.io at: https://diverguy.shinyapps
 # Presentation
 The final project assignement also includes to create a 5 page R presentation.
 
-The RStudio presentation slides is published on RPubs at: https://diverguy.shinyapps.io/week4/
+The RStudio presentation slides is published on RPubs at: http://rpubs.com/diverguy/314145
