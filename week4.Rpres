@@ -8,7 +8,7 @@ transition: fade
 
 Introduction
 ========================================================
-This [presentation](http://rpubs.com/diverguy/314135) of a simple Shiny application that has been built for the [Developing Data Products Coursera course](https://www.coursera.org/learn/data-products) as a final project.
+This presentation of a simple Shiny application that has been built for the [Developing Data Products Coursera course](https://www.coursera.org/learn/data-products) as a final project.
 
 The application is developed in RStudio and uses the built in R dataset mtcars to model the relationship between a car's MPG and one or more of the other available variables as predictors.
 
@@ -35,17 +35,12 @@ Application
 
 * The dataset including its variables is explained in the shiny application.
 
+* Shiny application is deployed on shinyapps.io: (https://diverguy.shinyapps.io/coursera_developing_data_products_final_project/)
+
+* The ui.R and server.R files are available on GitHub:  (https://github.com/mikaellindstrom/developingdataproducts.git).
+
 Application Output
 ========================================================
 
 ![Alt text](week4.png)
-
-Links
-========================================================
-
-Shiny application is deployed on shinyapps.io: (https://diverguy.shinyapps.io/coursera_developing_data_products_final_project/)
-
-The ui.R and server.R files are available on GitHub:  (https://github.com/mikaellindstrom/developingdataproducts.git).
-
-This presentation are available on RPubs: (http://rpubs.com/diverguy/314139)
 
