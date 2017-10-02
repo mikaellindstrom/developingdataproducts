@@ -1,0 +1,49 @@
+Coursera: Developing Data Products - course project
+========================================================
+author: Mikael Lindstrom
+date: September 30, 2017
+autosize: true
+transition: fade
+
+
+Introduction
+========================================================
+This [presentation](https://diverguy.shinyapps.io/week4/) of a simple Shiny application that has been built for the [Developing Data Products Coursera course](https://www.coursera.org/learn/data-products) as a final project.
+
+The application is developed in RStudio and uses the built in R dataset mtcars to model the relationship between a car's MPG and one or more of the other available variables as predictors.
+
+
+Dataset - Motor Trend Car Road Tests
+========================================================
+
+The <i>mtcars</i> dataset was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models).
+
+```{r}
+head(mtcars[c(1,2,4,6,7)])
+```
+
+Application
+========================================================
+
+* The shiny application models the relationship between a car's MPG and one or more variables in the R <i>mtcars</i> dataset using linear regression.
+
+* The user can select the variable(s) to use in the model
+
+* The application will output:
+    + plot the regression line in four diagnostic plots
+    + print out the model summary to show more details.
+
+* The dataset including its variables is explained in the shiny application.
+
+Application Output
+========================================================
+
+![Alt text](week4.png)
+
+Links
+========================================================
+
+Shiny application on [shinyapps.io](https://diverguy.shinyapps.io/coursera_developing_data_products_final_project/)
+
+The ui.R and server.R files are available on [GitHub](https://).
+
